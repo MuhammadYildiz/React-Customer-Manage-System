@@ -58,7 +58,7 @@ export default function Customer() {
         setStatue(false)
     }
     return (
-        <div className='flex flex-col justify-start items-center bg-slate-50 shadow-2xl shadow-zinc-900 p-5 mx-2 mt-10 sm:m-10 lg:mx-52 min-h-[90vh]'>
+        <div className='flex flex-col justify-start items-center bg-slate-50 shadow-2xl shadow-zinc-900 p-5 mx-2 mb-10 mt-10 sm:m-10 lg:mx-52 min-h-[90vh]'>
             <h1 className='text-3xl text-cyan-500 my-5 text-center'>Customer Manage System</h1>
             {!statue ? <form onSubmit={handleSubmit} className="mb-5 text-center" >
                 <label>
